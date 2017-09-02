@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
+# Danupat Khamnuansin
 
-You can use the [editor on GitHub](https://github.com/jrkns/jrkns.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+![Image](https://avatars3.githubusercontent.com/u/13897231?v=4&u=51b8accc442f4c9202658279acb09e24f1d57ee3&s=150) <br />
+Computer Engineering Student
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Education
 
-### Markdown
+**B.Eng. in Computer Engineering** (2014-2017) <br />
+Chulalongkorn University (Bangkok, Thailand) 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Undergraduate Coursework
+  - Programming Languages
+  - Algorithms Design
+  - Data Structure
+  - Computer Architecture
+  - Computer Security 
+  - Computer Network 
+  - Operating Systems 
+  - Database Design
+  - Systems Analysis 
+  - Distributed Systems
+  - Neural Networks
+  - Artificial Intelligence
+  - Digital Image Processing
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jrkns/jrkns.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Interests
+  - Machine learning (Deep learning with NN)
+  - Natural language processing (Python, NLTK, Tensorflow, Keras)
+  - Full-Stack Web Developing (CSS, HTML, Django, Node.js, Jade/Pug, Bootstrap)
+  - Software implementation (Python, Java, C++)
+  - Database Management implementation (mySQL)
+  - Distributed System implementation (API)
+  - iOS Application developing (Swift)
+  - Embed-System implementation (stm32f4discovery, FPGA)
+  - Computer Security
+  - Data analytic & Data mining
+  
+ ```markdown
+ ```
+ 
+ ## Contact
+ - Email: jrkns1996@gmail.com
+ - Facebook: [Danupat Kns](https://www.facebook.com/Danupat.Kns)
