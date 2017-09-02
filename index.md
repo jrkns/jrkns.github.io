@@ -5,8 +5,20 @@ Computer Engineering Student
 
 **B.Eng. in Computer Engineering** (2014-2017) <br />
 Chulalongkorn University (Bangkok, Thailand) 
-
-### Undergraduate Coursework
+  
+## Interests
+  - Machine learning (Deep learning with NN)
+  - Natural language processing (Python, NLTK, Tensorflow, Keras)
+  - Web Developing (CSS, HTML, Django, Node.js, Jade/Pug, Bootstrap)
+  - Software implementation (Python, Java, C++)
+  - Database Management implementation (mySQL)
+  - Distributed System implementation (API)
+  - iOS Application developing (Swift)
+  - Embed-System implementation (stm32f4discovery, FPGA)
+  - Computer Security
+  - Data analytic & Data mining
+  
+ ## Undergraduate Coursework
   - Programming Languages
   - Algorithms Design
   - Data Structure
@@ -20,19 +32,8 @@ Chulalongkorn University (Bangkok, Thailand)
   - Neural Networks
   - Artificial Intelligence
   - Digital Image Processing
-
-## Interests
-  - Machine learning (Deep learning with NN)
-  - Natural language processing (Python, NLTK, Tensorflow, Keras)
-  - Web Developing (CSS, HTML, Django, Node.js, Jade/Pug, Bootstrap)
-  - Software implementation (Python, Java, C++)
-  - Database Management implementation (mySQL)
-  - Distributed System implementation (API)
-  - iOS Application developing (Swift)
-  - Embed-System implementation (stm32f4discovery, FPGA)
-  - Computer Security
-  - Data analytic & Data mining
+  - Software Engineering
    
- ## Contact
+## Contact
  - Email: jrkns1996@gmail.com
  - Facebook: [Danupat Kns](https://www.facebook.com/Danupat.Kns)
