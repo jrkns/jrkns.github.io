@@ -18,7 +18,14 @@ Chulalongkorn University (Bangkok, Thailand)
   - Computer Security
   - Data analytic & Data mining
   
- ## Undergraduate Coursework
+## Skills
+ Type | Lists
+------------ | -------------
+**Languages** | Python, JAVA, C++, C, HTML, CSS, SQL, JavaScript, Swift, Haskell, Verilog, Assembly
+**Frameworks** | Tensorflow, Keras, Gensim, Pandas, Pickle, Numpy, re, etc.
+**Environment** | Windows, macOS, Debian, Linux, iOS
+  
+## Undergraduate Coursework
   - Programming Languages
   - Algorithms Design
   - Data Structure
