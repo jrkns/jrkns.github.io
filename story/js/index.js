@@ -8,7 +8,7 @@ $(function () {
 			var output = '';
 			$.each(response.items, function (k, item) {
 				var visibleSm;
-				if(k < 1){
+				if(k < 3){
 					visibleSm = '';
 				 } else {
 					 visibleSm = ' visible-sm';
