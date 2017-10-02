@@ -233,3 +233,12 @@
 .blog-grid .blog-element img {
   width: 100%;
 }
+.blog .blog-post .blog-content img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.blog .blog-post .blog-content img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
