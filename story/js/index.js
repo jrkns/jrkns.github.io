@@ -21,7 +21,7 @@ $(function() {
                 var srcStart = srcIndex + 5;
                 var srcEnd = item.description.substring(srcStart).indexOf('"') + srcStart;
                 var src = item.description.substring(srcStart, srcEnd);
-				output += '<div class="blog-content"><center><img class="img-responsive" src="' + src + '" width="480px" height="270px"><br><h4><a href="'+ item.link + '">' + item.title + '</a></h4></center>';
+				output += '<div class="blog-content"><center><img class="img-responsive" src="' + src + '" width="480px" height="200px"><br><h4><a href="'+ item.link + '">' + item.title + '</a></h4></center>';
                 output += '</div></div></div>';
                 return true;
             });
