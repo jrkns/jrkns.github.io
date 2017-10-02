@@ -1,6 +1,9 @@
 @charset "UTF-8";
 .blog .blog-post {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+}
+.blog .blog-post-more {
+  margin-bottom: 5px;
 }
 .blog .blog-post header {
   position: relative;
@@ -17,6 +20,13 @@
 .blog .blog-post .blog-content {
   padding: 15px 28px;
   border: 1px solid #f5f5f5;
+}
+.blog .blog-post-more .blog-content-more {
+  padding: 5px 5px;
+  border: 1px solid #f5f5f5;
+}
+.blog .blog-post-more .blog-content-more h3 a {
+  font-size: 20px;
 }
 .blog .blog-post .blog-content h4 {
   margin: 20px 0;
