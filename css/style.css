@@ -5,6 +5,9 @@
 .blog .blog-post-more {
   margin-bottom: 5px;
 }
+.blog .blog-post-head {
+  margin-bottom: 5px;
+}
 .blog .blog-post header {
   position: relative;
 }
@@ -25,6 +28,9 @@
   border: 1px solid #f5f5f5;
 }
 .blog .blog-post-more .blog-content-more {
+  padding-bottom: 0px;
+}
+.blog .blog-post-more .blog-content-head {
   padding: 5px 5px;
 }
 .blog .blog-post-more .blog-content-more h3 a {
