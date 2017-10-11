@@ -22,9 +22,9 @@ animationTimer = setInterval(function() {
         // Generate a random string to use for the next animation step
         output.text(
             ''+
-            Math.floor(Math.random() * 2)+
-            Math.floor(Math.random() * 10)
+            Math.floor(Math.random() * 9.99)+
+            Math.floor(Math.random() * 9.99)
         );
     }
-}, 50);
+}, 100);
 });
