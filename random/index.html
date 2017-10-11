@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+
+  
+  
+
+  
+  
+  
+
+  
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.1.js"></script>
+
+  
+
+  
+    <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+  
+
+  
+
+  
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+  
+
+  
+
+  <style type="text/css">
+    #output {
+    margin: 20px;
+    padding: 20px;
+    background: gray;
+    border-radius: 10px;
+    font-size: 80px;
+    width: 80px;
+    color: white;
+}
+  </style>
+
+  <title></title>
+
+  
+    
+
+
+
+
+<script type='text/javascript'>//<![CDATA[
+$(window).load(function(){
+var output, started, duration, desired;
+
+// Constants
+duration = 5000;
+desired = '50';
+
+// Initial setup
+output = $('#output');
+started = new Date().getTime();
+
+// Animate!
+animationTimer = setInterval(function() {
+    // If the value is what we want, stop animating
+    // or if the duration has been exceeded, stop animating
+    if (output.text().trim() === desired || new Date().getTime() - started > duration) {
+        clearInterval(animationTimer);
+    } else {
+        console.log('animating');
+        // Generate a random string to use for the next animation step
+        output.text(
+            ''+
+            Math.floor(Math.random() * 10)+
+            Math.floor(Math.random() * 10)
+        );
+    }
+}, 100);
+});//]]> 
+
+</script>
+
+  
+</head>
+
+<body>
+  <div id="output">--</div>
+  
+  <script>
+  // tell the embed parent frame the height of the content
+  if (window.parent && window.parent.parent){
+    window.parent.parent.postMessage(["resultsFrame", {
+      height: document.body.getBoundingClientRect().height,
+      slug: "k3ckv01t"
+    }], "*")
+  }
+</script>
+
+</body>
+
+</html>
+
+
