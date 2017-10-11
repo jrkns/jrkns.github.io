@@ -54,9 +54,10 @@
 $(window).load(function(){
 var output, started, duration, desired;
 
+
 // Constants
-duration = 5000;
-desired = parseInt(Math.random()*28,10);
+duration = 3000;
+desired = Math.floor(Math.random() * (28 - 1 + 1)) + 1;;
 
 // Initial setup
 output = $('#output');
