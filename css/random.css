@@ -1,9 +1,9 @@
 #output {
-  margin: 20px;
-  padding: 20px;
+  margin: 50px;
+  padding: 50px;
   background: gray;
-  border-radius: 10px;
-  font-size: 80px;
-  width: 80px;
+  border-radius: 50px;
+  font-size: 400px;
+  width: 400px;
   color: white;
 }
