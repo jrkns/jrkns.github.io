@@ -17,8 +17,11 @@
 {"name":"jrkns.github.io","description":"My bio site see it here: https://jrkns.github.io","author":null,"@type":"WebSite","url":"https://jrkns.github.io/","image":null,"publisher":null,"headline":"Danupat Khamnuansin","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="css/bootstrap.css"> 
+    <link rel="stylesheet" href="../css/bootstrap.css"> 
     <link rel="stylesheet" href="/assets/css/style.css?v=17a28c64b815dae2b10baebb9613dc58780165c7">
+    <link rel="stylesheet" href="../css/lightbox.min.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src="../js/lightbox-plus-jquery.min.js"></script>
     <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -36,10 +39,10 @@
                           <span class="navbar-toggler-icon"></span>
                       </button>
                       <div class="navbar-collapse collapse.show flex-column mt-md-0 mt-4 pt-md-0 pt-4 no-transition" id="navigation-menu">
-                          <a href="#" class="nav-link active"><font size="4" color="black"><b>About</b></font></a>
+                          <a href="https://jrkns.github.io/" class="nav-link active"><font size="4" color="grey">About</font></a>
                           <a href="https://jrkns.github.io/blog/" class="nav-link"><font size="4" color="grey">Blog</font></a>
                           <a href="https://jrkns.github.io/chatbots/" class="nav-link"><font size="4" color="grey">Chatbot</font></a>
-                          <a href="https://jrkns.github.io/dev/" class="nav-link"><font size="4" color="grey">Develop</font></a>
+                          <a href="#" class="nav-link active"><font size="4" color="black"><b>Develop</b></font></a>
                       </div>
                   </nav>
                 </div>
@@ -72,81 +75,83 @@
       </header>
       <section>
 
-<h2 id="education">Education</h2>
-<p><i>2014 - 2017(Present)</i> <br />
-<strong>B.Eng. in Computer Engineering</strong> <br />
-<strong>Chulalongkorn University</strong> (Bangkok, Thailand)</p>
+<h2 id="education">Projects List</h2><br />
 
-<h2 id="interests">Interests</h2>
-<ul>
-  <li>Machine learning (Deep learning with NN)</li>
-  <li>Natural language processing (Python, NLTK, Tensorflow, Keras)</li>
-  <li>Assistant Chatbots (LINE Message API) </li>
-  <li>Web Developing (CSS, HTML, Django, Node.js, Jade/Pug, Bootstrap)</li>
-  <li>Software implementation (Python, Java, C++)</li>
-  <li>Database Management implementation (mySQL)</li>
-  <li>Distributed System implementation (API)</li>
-  <li>iOS Application developing (Swift)</li>
-  <li>Embed-System implementation (stm32f4discovery, FPGA)</li>
-  <li>Computer Security</li>
-  <li>Data analytic &amp; Data mining</li>
-</ul>
-
-<h2 id="skills">Skills</h2>
-<div class="table-responsive">
-    <table class="table">
-      <tr>
-          <td><h4 class="level-title">Languages</h4></td>
-          <td><div class="">Python, JAVA, C++, C, HTML, CSS, SQL, JavaScript, Swift, Haskell, Verilog, Assembly</div></td>
-      </tr>
-      <tr>
-          <td><h4 class="level-title">Frameworks</h4></td>
-          <td>Tensorflow, Keras, Gensim, Node.js, Django, NLTK, Bootstrap, LINE-API, etc.</td>
-      </tr>
-      <tr>
-          <td><h4 class="level-title">Tools</h4></td>
-          <td>VScode, Pycharm, JupyterNotebook, Git, Docker, Eclipse, Xcode, Office, etc.</td>
-      </tr>
-      <tr>
-          <td><h4 class="level-title">Environment</h4></td>
-          <td>Windows, macOS, Debian, Linux, iOS <br/>&nbsp;</td>
-      </tr>
-    </table>
+<div class="row">
+  <div class="col-12">
+    <h3>CUnlp - Thai Natural Languages Processing Library</h3>
+      <p>My "senior project" implementing a python library using tensorflow about Natural Language Processing in Thai languages. 
+      </p>
+      <p>Status: <font color='#FF8800'>Ongoing</font>
+        </p>
   </div>
-
-<h2 id="activities">Activities</h2>
-<ul>
-  <li><i>&lt;Competition&gt;</i> <strong>Finalist</strong> - Techjam by KBTG (2017)</li>
-  <li><i>&lt;Internship&gt;</i> KASIKORN Business - Technology Group (2017)</li>
-  <li><i>&lt;Volunteer&gt;</i> ChulaEngineering - FE Camp (2015)</li>
-  <li><i>&lt;Volunteer&gt;</i> ChulaEngineering - Larngear Camp (2015)</li>
-</ul>
-
-<h2 id="undergraduate-coursework">Undergraduate Coursework</h2>
-<ul>
-  <li>Programming Languages</li>
-  <li>Algorithms Design</li>
-  <li>Data Structure</li>
-  <li>Computer Architecture</li>
-  <li>Computer Security</li>
-  <li>Computer Network</li>
-  <li>Operating Systems</li>
-  <li>Database Design</li>
-  <li>Systems Analysis</li>
-  <li>Distributed Systems</li>
-  <li>Neural Networks</li>
-  <li>Artificial Intelligence</li>
-  <li>Digital Image Processing</li>
-  <li>Software Engineering</li>
-</ul>
-
+</div>
+<div class="row">
+    <div class="col-12">
+      <h3>NSC2018 - CUDeepCatch: Thai Plagiarism Detection</h3>
+        <p>National Software Competition 2018 in special topics.</p>
+        <p>Status: <font color='#FF8800'>Ongoing</font>
+          </p>
+    </div>
+  </div>
+  <div class="row">
+      <div class="col-12">
+        <h3>LINE Chatbots</h3>
+          <p>Implement Flask server to response incoming LINE Application Messaging API (Chatbot).</p>
+          <p>Status: <font color='#2BBBAD'>Partially completed</font>
+            </p>
+      </div>
+    </div>
+  <div class="row">
+      <div class="col-12">
+        <h3>Student Registrar Web Application</h3>
+          <p>Implement Flask server to response incoming LINE Application Messaging API (Chatbot).</p>
+          <p>Status: <a href="https://github.com/jrkns/proj_mysql" target="_blank">Completed</a>
+            </p>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+          <h3>Chat Room Application</h3>
+            <p>Chat room application using JAVA.</p>
+            <p>Status: <a href="https://github.com/jrkns/proj_chatApp" target="_blank">Completed</a>
+              </p>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-12">
+            <h3>Embed-System Implementation</h3>
+              <p>Implement stm32f4board using C languages in Eclipse including reading I/O.</p>
+              <p>Status: <a href="https://github.com/jrkns/proj_stm32f4" target="_blank">Completed</a>
+                </p>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+              <h3>IV Calculator for Pokemon Go</h3>
+                <p>IV Calculator for Pokemon GO Application (before official Pokemon GO IV features releases).
+                  </p>
+                <p>Status: <a href="https://github.com/jrkns/proj_IvCalc" target="_blank">Completed</a>
+                  </p>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-12">
+                <h3>Game Implementation</h3>
+                  <p>JAVA languages game including UI, Graphic, Gaming Logic implementation using MVC architectural pattern.</p>
+                  <p>Status: <a href="https://github.com/jrkns/proj_typeWizard" target="_blank">Completed</a>
+                    </p>
+              </div>
+            </div>
+    
 
       </section>
 
     </div>
    
     <script src="/assets/js/scale.fix.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    
 
   </body>
 </html>
