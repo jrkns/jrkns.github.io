@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <body>
+    <script>
+      var url_string = window.location.href;
+      var url = new URL(url_string);
+      var to = url.searchParams.get("to");
+      if (to !== null) {
+          window.location.replace("https://us-central1-tooshort-db.cloudfunctions.net/api/"+to);
+      }
+  </script>
+  </body>
+</html>
